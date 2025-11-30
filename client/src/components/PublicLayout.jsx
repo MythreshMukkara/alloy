@@ -197,7 +197,7 @@ function PublicLayout() {
                         <span className="text-sm text-gray-500">&copy; {new Date().getFullYear()}</span>
                     </div>
                     <div className="flex space-x-6 text-sm text-gray-400">
-                        <a href="https://github.com/YOUR_USERNAME/alloy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                        <a href="https://github.com/MythreshMukkara/alloy" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                             <FaGithub size={20} />
                         </a>
                         <NavLink to="/privacy" className="hover:text-white cursor-pointer transition-colors">Privacy Policy</NavLink>
