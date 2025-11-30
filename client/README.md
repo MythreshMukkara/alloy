@@ -6,12 +6,11 @@ The user interface for Alloy, built with React, Vite, and Tailwind CSS. It featu
 
 The API base URL is configured in `src/services/api.service.js`.
 
-* **Development:** Defaults to `http://localhost:3232/api`.
 * **Production:** Reads from `import.meta.env.VITE_API_URL`.
 
 ## 📜 Scripts
 
-* `npm run dev`: Starts the development server at `http://localhost:5173`.
+* `npm run dev`: Starts the development server at `https://alloy-backend-5ew6.onrender.com`.
 * `npm run build`: Compiles the app for production.
 * `npm run preview`: Previews the production build locally.
 
@@ -43,8 +42,12 @@ The API base URL is configured in `src/services/api.service.js`.
 ```text
 client/
 ├── public/
+│   └── logo.png
 │  
 ├── src/
+│   ├── assets/
+│   │   └── logo.png
+│   │
 │   ├── components/             # Reusable UI Components
 │   │   ├── DocumentManager.jsx # File upload and management
 │   │   ├── MainLayout.jsx      # Protected app shell with Sidebar & Header
