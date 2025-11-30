@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Create a pre-configured instance of axios
 const api = axios.create({
-    baseURL: 'http://localhost:3232/api', // Your backend's base URL
+    baseURL: 'https://alloy-backend-5ew6.onrender.com/api', // Your backend's base URL
 });
 
 // === Add a request interceptor ===
