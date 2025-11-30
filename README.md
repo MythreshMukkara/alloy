@@ -27,7 +27,7 @@ Alloy is a full-stack web application designed to centralize student academic li
 * Node.js & Express.js
 * MongoDB (Mongoose)
 * JWT & Bcryptjs
-* Libraries: `@google/generative-ai` (Gemini), `puppeteer` (Scraping), `multer` (Uploads), `nodemailer`
+* Libraries: `@google/generative-ai` (Gemini), `multer` (Uploads), `nodemailer`
 
 ## Project Structure
 
@@ -64,5 +64,3 @@ cd client
 npm install
 npm run dev
 ```
-
-The application will be accessible at `http://localhost:5173`.
