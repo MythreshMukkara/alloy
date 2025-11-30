@@ -10,7 +10,6 @@ Alloy is a full-stack web application designed to centralize student academic li
 * **Task Management:** Priority-based task list with sorting and filtering.
 * **Integrated Notes:** Rich text editor (Quill) organized by subject with file attachment support.
 * **AI Assistant:** Context-aware chat powered by Google Gemini for summarizing notes and generating study plans.
-* **Coding Progress:** Web scraping integration (Puppeteer) to track LeetCode statistics.
 * **Secure Authentication:** JWT-based login/registration with password reset via email.
 
 ## Tech Stack
