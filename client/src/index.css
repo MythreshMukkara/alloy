@@ -1,0 +1,10 @@
+/*
+ * File: client/src/index.css
+ * Description: Global application styles. Uses Tailwind and local overrides.
+ */
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
