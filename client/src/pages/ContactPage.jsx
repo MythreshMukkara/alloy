@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import { FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 function ContactPage() {
 
@@ -18,19 +18,13 @@ function ContactPage() {
                             <div className="w-10 h-10 bg-blue-900/30 rounded-full flex items-center justify-center text-blue-400">
                                 <FaEnvelope />
                             </div>
-                            <span>support@alloyapp.com</span>
+                            <span>alloystudyhub03@gmail.com</span>
                         </div>
                         <div className="flex items-center space-x-4 text-gray-300">
                             <div className="w-10 h-10 bg-purple-900/30 rounded-full flex items-center justify-center text-purple-400">
                                 <FaMapMarkerAlt />
                             </div>
-                            <span>123 Academic Way, Tech City</span>
-                        </div>
-                        <div className="flex items-center space-x-4 text-gray-300">
-                            <div className="w-10 h-10 bg-green-900/30 rounded-full flex items-center justify-center text-green-400">
-                                <FaPhone />
-                            </div>
-                            <span>+1 (555) 123-4567</span>
+                            <span>JNTUACEA, Anantapur</span>
                         </div>
                     </div>
                 </div>
