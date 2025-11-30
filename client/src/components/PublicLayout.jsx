@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
-import { FaBars, FaTimes, FaCalendarAlt, FaTasks, FaBook, FaRobot } from 'react-icons/fa';
+import { FaBars, FaTimes, FaCalendarAlt, FaTasks, FaBook, FaRobot, FaGithub } from 'react-icons/fa';
 
 function PublicLayout() {
     const [showLogin, setShowLogin] = useState(true);
